@@ -1,0 +1,35 @@
+.card_container {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+}
+
+.btn_show_more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 8rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  border: 1px solid blue;
+  border-radius: 10rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+  font-weight: bold;
+  color: blue;
+  display: flex;
+  cursor: pointer;
+}
+
+.btn_show_more:hover {
+  background-color: blue;
+  color: white;
+}

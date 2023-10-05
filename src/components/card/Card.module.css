@@ -1,0 +1,106 @@
+/* .card_container {
+  border: 2px solid red;
+  width: 100%;
+  height: auto;
+  display: flex;
+} */
+
+.card {
+  /* border: 3px dotted blue; */
+  list-style: none;
+  border-radius: 1rem;
+  background-color: white;
+  position: relative;
+  width: 350px;
+  cursor: pointer;
+}
+
+.image {
+  object-fit: cover;
+  height: 250px;
+  width: 350px;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+/* .hotel_name {
+  padding: 0rem 1rem;
+} */
+
+.room_specifications {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 0.5rem; */
+  /* border: 2px solid green; */
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid hotpink; */
+}
+
+.read_more_conrtainer {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid orange; */
+  align-items: center;
+}
+
+.btn_read_more {
+  border: 1px solid blue;
+  border-radius: 10rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: white;
+  font-weight: bold;
+  color: blue;
+  cursor: pointer;
+}
+
+.btn_read_more:hover {
+  background-color: blue;
+  color: white;
+}
+
+.tag {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: white;
+  /* border: 2px solid red; */
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem 0.5rem;
+  border-radius: 10rem;
+}
+
+.heart {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: white;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 10rem;
+}
+
+.popular {
+  border: 1px solid blue;
+  color: white;
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  width: 7rem;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  top: 14rem;
+}
